@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 400px;
+        height: 400px;
+        background: url('./liuyifei.jpg') no-repeat center;
+        background-size: contain;
+        /* clip-path: inset(100px 50px); */
+        clip-path: circle(5px at 200px 200px);
+        /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%); */
+        transition: clip-path 2s;
+      }
+      /* clip-path 可以用 svg图片做裁剪 */
+      .container:hover {
+        clip-path: circle(200px at 200px 200px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+  </body>
+</html>

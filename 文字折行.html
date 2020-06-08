@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .c1 {
+        border: 1px solid;
+        width: 8em;
+        /* 通用的换行控制 */
+        overflow-wrap: normal;
+        /* 表示单词可以折行,但是尽量不会打断单词 */
+        /* overflow-wrap: break-word; */
+
+        /* 表示所有单词都会被折行，就是不会把单词作为一个单位了 */
+        word-break: break-all;
+        /* 表示所有单词都会保持完整 */
+        word-break: keep-all;
+
+        /* 让一个很长的文本不换行 */
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c1">This is a shuaishuai fakdshfahdslfhasjkdhfl de jingyang . 一二三四五一二三四五一二三四五一二三四五一二三四五一二三四五</div>
+  </body>
+</html>

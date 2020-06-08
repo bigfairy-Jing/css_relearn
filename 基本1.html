@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- 表示页面使用的是那种字符集  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <section>
+    <h1>链接</h1>
+    <a href="http://www.qq.com">腾讯网</a>
+    <a href="http://www.taobao.com">淘宝网</a>
+  </section>
+  <section>
+    <!-- //rowspan  colspan占据几列几行 -->
+    <h1>表格</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <form action="http://www.qq.com">
+      <p>
+        <select name="select1" id="">
+          <option value="1">xuanxiang1</option>
+          <option value="2" selected>xuanxiang2</option>
+        </select>
+      </p>
+      <p>
+        <input type="text" name="text1">
+      </p>
+      <p>
+        <!-- //name 统一代表radio统一到一起 -->
+        <!-- for会让label关联，关联的属性是id -->
+        <input type="radio" name="radio1" id="radio1-1">
+        <label for="radio1-1">选项1</label>
+        <input type="radio" name="radio1" id="radio2-1">
+        <label for="radio2-1">选项1</label>
+      </p>
+      <p>
+        <button type="button">普通按钮</button>
+        <button type="submit">普通按钮</button>
+        <button type="reset">普通按钮</button>
+      </p>
+    </form>
+  </section>
+</body>
+</html>

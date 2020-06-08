@@ -1,0 +1,14 @@
+字重 ： font-weight
+
+斜体： font-style:itatic
+
+下划线： text-decoration
+
+指针 ： cursor
+
+
+
+font-weight : normal(400)  bold(粗体700) bolder(更粗（数字值不确定继承与父级）) lighter() 数字值(只能是100-900   不能是250，只能是100的整数值)
+
+
+
